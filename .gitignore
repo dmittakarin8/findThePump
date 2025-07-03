@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+Thumbs.db
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# local env files
+.env*.local
+.env
+.todo
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.orig
+
+# Lock files (keep only one)
+# Uncomment the one you're using:
+pnpm-lock.yaml
+# package-lock.json
+# yarn.lock
+
+# Application data files
+token_stats.json
+token_names_cache.json
+token_stats.json.bak
+token_names_cache.json.bak
+
+# Legacy data files (no longer used)
+src/data/snapshots_history.json
+src/data/signals_history.json
+src/data/*
+
+# Main data directory
+data/*
+
+# Log files
+src/logs/
+logs/
